@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+st.title("FROTA")
 
-st.write("""Frota
-         
-Atlântico""")
+st.write("""Atlântico""")
 
 df = pd.read_csv(
     "_tmp_csv_tmpwgC6Of.csv",
